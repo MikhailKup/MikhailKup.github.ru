@@ -1,0 +1,37 @@
+.materials {
+	padding: 0px 0px 20px 0px;
+	&__block {
+		text-align: center;
+		margin-top: 20px;
+		h3 {
+			display: inline-block;
+			font-weight: bold;
+			font-size: 24px;
+		}
+		h4 {
+			font-size: 18px;
+		}
+		a {
+			display: inline-block;
+			margin-top: 30px;
+			color: $icons-color;
+			font-size: 18px;
+			border-bottom: 1px dotted $icons-color;
+		}
+	}
+	&__image {
+		margin-bottom: 10px;
+		img {
+			max-width: 180px;
+			display: block;
+			margin: 0 auto;
+		}
+	}
+	&__offer {
+		margin-top: 50px;
+		text-align: center;
+	}
+	&__link {
+		color: $icons-color;
+	}
+}

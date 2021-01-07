@@ -1,0 +1,17 @@
+.footer {
+	margin-top: -40px;
+	padding: 20px 0;
+	&__contacts {
+		padding-top: 5px;
+		text-align: center;
+		p {
+			margin: 0;
+			line-height: 23px;
+		}
+	}
+	&__author {
+		padding-top: 6px;
+		text-align: right;
+		font-weight: bold;
+	}
+}
